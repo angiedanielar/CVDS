@@ -1,0 +1,21 @@
+Respuestas a las preguntas del laboratorio:
+
+La diferencia entre usar GET y POST, es que éste último no muestro los parámetros agregados en la URL.
+Get se usa para obtener y Post para crear. Se utiliza cuando se quiere ocultar cierta información al usuario.
+A diferencia del GET, los parámetros del POST pueden ser muy grandes. Los parámetros GET permanecen en el historial
+del navegador, debido a que forman parte del URL, los de POST por eso suele ser más seguro que GET, porque los 
+parámetros no se almacenan en el historial del navegador ni al iniciar sesión en algún servidor web. Los POST 
+pueden enviar parámetros, incluso si fuera necesario, puede subir archivos al servidor. El tamaño de los GET se 
+limita sólo a los que quepan dentro del mensaje de petición (URL), en los POST no. Los GET son faciles de hackear, 
+incluso para un novato, los POST son más dificiles de hackear. Los GET solo permite caracteres del código ASCII, 
+en cambio los POST no tiene restricciones, también permite datos en código binario. No existen restricciones en 
+cuanto a la longitud de los formularios en POST, en cambio en en los GET, los formularios se colocan en el URL 
+y la longitud de éste está restringida. Un ejemplo de longitud de URL seguro ronda los 2048 caracteres, sin embargo
+esto depende del navegador y el servidor web. El método GET está visible para todos (se localiza en la barra de 
+dirección del navegador). Este presenta límites en cuanto a la información que será enviada. Las variables del 
+método POST no se pueden visualizar en el URL. Los GET se pueden almacenar en la memoria caché, en lugar de los
+POST que no pueden ocultarse en la memoria caché.
+
+Se muestran los datos según la solicitud ID realizada, y cada vez que se pide un ID desde la página que tiene 
+el recuadro este muestra solamente la información de dicho valor.
+    

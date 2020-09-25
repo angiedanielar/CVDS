@@ -1,0 +1,6 @@
+Integrantes:
+Ernesto Camacho- 2154021
+Daniela Ruiz- 2154957
+
+la respuesta a la ultima pregunta es que funcionan todas como deberian, 
+el mas raro seria el error en pentagon hasta que se tiene en cuenta que pentagon no es una clase es Pentagon
